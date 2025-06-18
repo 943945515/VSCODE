@@ -82,7 +82,7 @@ while (1):
         break
 print("Good bye!")
 #for循环
-for num in range(10,13):  # 迭代 10 到 20 (不包含) 之间的数字
+for num in range(10,13):  # 迭代 10 到 13 (不包含) 之间的数字
    for i in range(2,num): # 根据因子迭代
       if num%i == 0:      # 确定第一个因子
          j=num/i          # 计算第二个因子
