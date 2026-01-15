@@ -3,24 +3,23 @@
 # 文件名：test.py
 import math
 import time
-
-print('he');print('runoob');
+print('he');print('runoob')
 
 if True:
-    print ("Answer")
-    print ("True")
+    print("Answer")
+    print("True")
 else:
-    print ("Answer")
+    print("Answer")
     # 没有严格缩进，在执行时会报错
-    print ("False")
+    print("False")
 input("按下 enter 键退出，其他任意键显示...\n")
 import sys; x = 'runoob'; sys.stdout.write(x + '\n')
 x="a"
 y="b"
 #换行输出
-print (x)
-print (y)
-print ('------')
+print(x)
+print(y)
+print('------')
 #不换行输出
 print(x,y)
 A, B, C = 1, "赵九州", "john"
